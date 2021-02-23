@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header nav {
+  text-align: center;
+  width: 100%;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+
+header nav a {
+  margin: 0px 30px;
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+main section:nth-child(2) img {
+  margin-right: 25px;
+}
+
+main section:nth-child(2) img:nth-child(3) {
+  margin-right: 0;
+}
+
+main section:nth-child(3)  {
+  display: flex;
+
+}
+main section div p{
+    overflow: scroll;
+    width: 430px;
+    height: 340px;
+}
+
+main section div img{
+    margin-right: 30px;
+}
+footer {
+  clear: both;
+  padding: 50px 480px;
+  background: gray;
+}
