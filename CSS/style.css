@@ -9,19 +9,30 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-header nav {
-  text-align: center;
-  width: 100%;
+header{
+  height: 90px;
   background-color: blue;
   margin-bottom: 30px;
 }
 
-header nav a {
-  margin: 0px 30px;
-  text-decoration: none;
-  color: blanchedalmond;
+header nav {
+  display: inline;
+  text-align: center;
+  width: 100%;
+  
 }
 
+header nav a {
+   margin: 0px 40px;
+  text-decoration: none;
+  color: blanchedalmond;
+  
+}
+
+header img{
+  float: left;
+  margin-top: 10px;
+}
 main section:nth-child(2) img {
   margin-right: 25px;
 }
@@ -47,4 +58,13 @@ footer {
   clear: both;
   padding: 50px 480px;
   background: gray;
+}
+button{
+  border: 0;
+  background-color: black;
+  color: white;
+  padding: 3px 15px;
+}
+section{
+  margin: 30px 0;
 }
